@@ -1,0 +1,28 @@
+jsonlines==4.0.0
+requests==2.32.3
+httpx==0.28.1
+tqdm==4.67.1
+numpy==1.23.5
+pandas==2.3.0
+
+
+jieba==0.42.1
+rouge==1.0.1
+rouge-chinese==1.0.3
+rouge-score==0.1.2
+scikit-learn==1.6.1
+
+
+transformers==4.52.4
+datasets==3.6.0
+evaluate==0.4.0
+accelerate==1.7.0
+sentencepiece==0.2.0
+sentence-transformers==3.4.1
+bitsandbytes==0.46.0
+
+openai>=1.97,<2
+
+# 可选：vLLM（仅当使用 --vllm 时需要；可能需要 CUDA 12 运行时）
+vllm==0.9.1
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
